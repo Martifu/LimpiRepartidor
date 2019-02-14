@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "570982740882",
+    "firebase_url": "https://limpirepartidor.firebaseio.com",
+    "project_id": "limpirepartidor",
+    "storage_bucket": "limpirepartidor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570982740882:android:dd63ec620a51aea3",
+        "android_client_info": {
+          "package_name": "com.example.aplicaciones3.limpirepartidor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570982740882-d45vtae6maf65tiaegl6jmmsqr3u3k30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplicaciones3.limpirepartidor",
+            "certificate_hash": "17b1756f9890db43992d454d99db7236a989385d"
+          }
+        },
+        {
+          "client_id": "570982740882-560h7bfi8iqftccrhgco1tiahddp3en2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhC84d9pjkJOE3Whc7_2_Skz6K4Y9R9Qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570982740882-560h7bfi8iqftccrhgco1tiahddp3en2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
