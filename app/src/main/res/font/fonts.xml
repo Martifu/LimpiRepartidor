@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family>
+    <style name="Regular">
+        <item name="android:fontFamily">@font/Trebuchet_MS</item>
+        <item name="fontFamily">@font/Trebuchet_MS</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</font-family>
