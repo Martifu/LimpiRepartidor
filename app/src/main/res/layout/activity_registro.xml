@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".registro"
     android:orientation="vertical">
-    
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@color/theme_color">
         <Button
+            android:id="@+id/cerrar"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="11dp"
             android:layout_width="22dp"
@@ -24,6 +24,16 @@
             android:layout_height="25dp"
             android:src="@drawable/limpi_blanco"/>
     </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
 
     <TextView
         android:textSize="24dp"
@@ -50,32 +60,147 @@
             android:layout_width="42dp"
             android:layout_height="42dp" />
     </FrameLayout>
-    
-    <LinearLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="352dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
 
-        <TextView
-            android:fontFamily="sans-serif"
-            android:text="Nombre(s)"
-            android:textSize="12dp"
-            android:textStyle="bold"
-            android:layout_width="199dp"
-            android:layout_height="24dp"
-            android:textColor="#000000"/>
-        <EditText
-            android:background="@drawable/textback"
-            android:paddingLeft="18dp"
-            android:paddingRight="18dp"
-            android:layout_width="351dp"
-            android:layout_height="52dp"
-            android:hint="Escribe tu nombre"
-            android:textSize="10dp"/>
-    </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
+                <TextView
+
+                    android:layout_width="199dp"
+                    android:layout_height="24dp"
+                    android:fontFamily="sans-serif"
+                    android:text="NOMBRE(S)"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/nombre"
+                    android:layout_width="340dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/textback"
+                    android:hint="Escribe tu nombre"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="APELLIDO(S)"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_width="199dp"
+                    android:layout_height="24dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/apellido"
+                    android:background="@drawable/textback"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:layout_width="340dp"
+                    android:layout_height="52dp"
+                    android:hint="Escribe tu apellido"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="CORREO ELECTRONICO"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_width="199dp"
+                    android:layout_height="24dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/correo"
+                    android:background="@drawable/textback"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:layout_width="340dp"
+                    android:layout_height="52dp"
+                    android:hint="Escribe tu dirección correo"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="CONTRASEÑA"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_width="199dp"
+                    android:layout_height="24dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/contraseña"
+                    android:background="@drawable/textback"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:layout_width="340dp"
+                    android:layout_height="52dp"
+                    android:hint="Escribe tu contraseña deseada"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="CONFIRMAR CONTRASEÑA"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_width="199dp"
+                    android:layout_height="24dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/conf_contraseña"
+                    android:background="@drawable/textback"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:layout_width="340dp"
+                    android:layout_height="52dp"
+                    android:hint="Escribe nuevamente la contraseña"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="DIRECCIÓN PARA RECOGER TU ROPA"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:textColor="#000000"/>
+                <EditText
+                    android:id="@+id/direccion"
+                    android:background="@drawable/textback"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:layout_width="340dp"
+                    android:layout_height="52dp"
+                    android:hint="Escribe tu dirección"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:id="@+id/registro"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:text="@string/registro"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:layout_width="211dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>
 
 
 </LinearLayout>
