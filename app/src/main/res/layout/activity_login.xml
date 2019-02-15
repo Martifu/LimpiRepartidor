@@ -35,7 +35,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/correo"
+            android:id="@+id/log_correo"
             android:layout_width="340dp"
             android:layout_height="52dp"
             android:background="@drawable/textback"
@@ -56,7 +56,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/contraseña"
+            android:id="@+id/log_contraseña"
             android:layout_width="340dp"
             android:layout_height="52dp"
             android:background="@drawable/textback"
@@ -91,12 +91,13 @@
     </RelativeLayout>
     
     <Button
-        android:id="@+id/iniciar"
+        android:id="@+id/log_iniciar"
         android:background="@drawable/button"
         android:layout_width="211dp"
         android:layout_height="50dp"
         android:text="Iniciar Sesión"
         android:textColor="#fff"
+        android:onClick="login"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="10dp"/>
