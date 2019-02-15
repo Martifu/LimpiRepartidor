@@ -102,4 +102,12 @@ private FirebaseAuth.AuthStateListener authStateListener;
         }
 
     }
+
+    public void recuperar(View view) {
+        startActivity(new Intent(Login.this,Recuperar.class));
+    }
+
+    public void registrar(View view) {
+        startActivity(new Intent(Login.this,registro.class));
+    }
 }

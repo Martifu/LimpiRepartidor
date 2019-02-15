@@ -85,6 +85,7 @@
             android:textSize="12dp"
             android:layout_toRightOf="@id/olvide"
             android:text="Recupérala"
+            android:onClick="recuperar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="web"/>
@@ -120,6 +121,7 @@
             android:textSize="12dp"
             android:layout_toRightOf="@id/noreg"
             android:text="Registrate aquí"
+            android:onClick="registrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="web"/>
