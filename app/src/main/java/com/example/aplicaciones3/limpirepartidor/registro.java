@@ -12,6 +12,7 @@ public class registro extends AppCompatActivity implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
         findViewById(R.id.cerrar).setOnClickListener(this);
+        findViewById(R.id.registro).setOnClickListener(this);
     }
 
     @Override
@@ -21,6 +22,10 @@ public class registro extends AppCompatActivity implements View.OnClickListener 
             case R.id.cerrar:
                 Intent intent = new Intent(registro.this,Login.class);
                 startActivity(intent);
+                break;
+            case R.id.registro:
+                Intent regi = new Intent(registro.this,Recovery.class);
+                startActivity(regi);
                 break;
         }
     }

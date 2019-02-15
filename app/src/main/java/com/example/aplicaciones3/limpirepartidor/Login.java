@@ -12,6 +12,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         findViewById(R.id.registro).setOnClickListener(this);
+        findViewById(R.id.recuperar).setOnClickListener(this);
     }
 
     @Override
@@ -19,8 +20,12 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         switch (view.getId())
         {
             case R.id.registro:
-                Intent intent = new Intent(Login.this,registro.class);
-                startActivity(intent);
+                Intent registro = new Intent(Login.this,registro.class);
+                startActivity(registro);
+                break;
+            case R.id.recuperar:
+                Intent recuperar = new Intent(Login.this,Recuperar.class);
+                startActivity(recuperar);
                 break;
         }
     }

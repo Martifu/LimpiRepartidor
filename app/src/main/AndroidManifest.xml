@@ -19,10 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".registro">
-
-        </activity>
-        <activity android:name=".Login"></activity>
+        <activity android:name=".registro" />
+        <activity android:name=".Login" />
+        <activity android:name=".Recovery" />
+        <activity android:name=".Recuperar"></activity>
     </application>
 
 </manifest>
