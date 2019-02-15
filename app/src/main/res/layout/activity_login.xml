@@ -61,6 +61,7 @@
             android:layout_height="52dp"
             android:background="@drawable/textback"
             android:hint="Escribe tu contraseña"
+            android:inputType="textPassword"
             android:paddingLeft="18dp"
             android:paddingRight="18dp"
             android:textSize="13dp"
