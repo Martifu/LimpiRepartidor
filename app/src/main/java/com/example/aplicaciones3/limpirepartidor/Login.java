@@ -44,6 +44,8 @@ private FirebaseAuth.AuthStateListener authStateListener;
         correo= (EditText) findViewById(R.id.log_correo);
         contra= (EditText) findViewById(R.id.log_contraseña);
 
+//        firebaseAuth.getInstance().signOut();
+
         firebaseAuth= FirebaseAuth.getInstance();
         authStateListener= new FirebaseAuth.AuthStateListener() {
             @Override
@@ -56,7 +58,7 @@ private FirebaseAuth.AuthStateListener authStateListener;
                 }
                 else
                 {
-                    Toast.makeText(Login.this, "¡Welcom to Limpi!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(Login.this, "¡Welcome to Limpi!",Toast.LENGTH_LONG).show();
                 }
             }
         };
