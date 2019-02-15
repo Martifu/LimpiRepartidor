@@ -11,11 +11,12 @@
         android:layout_height="50dp"
         android:background="@color/theme_color">
         <Button
-            android:id="@+id/cerrar"
+            android:id="@+id/recovery_cerrar"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="11dp"
             android:layout_width="22dp"
             android:layout_height="22dp"
+            android:onClick="cerrar"
             android:background="@drawable/cancelar"/>
 
         <ImageView
@@ -61,7 +62,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/correo"
+        android:id="@+id/recovery_correo"
         android:layout_width="340dp"
         android:layout_height="52dp"
         android:background="@drawable/textback"
@@ -74,11 +75,12 @@
    </LinearLayout>
 
     <Button
-        android:id="@+id/enviar"
+        android:id="@+id/recovery_enviar"
         android:textColor="#fff"
         android:text="Enviar"
         android:layout_marginTop="20dp"
         android:layout_centerInParent="true"
+        android:onClick="send"
         android:background="@drawable/button"
         android:layout_width="150dp"
         android:layout_height="50dp"
