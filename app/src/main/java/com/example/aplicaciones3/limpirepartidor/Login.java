@@ -40,11 +40,11 @@ private FirebaseAuth.AuthStateListener authStateListener;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        btn1= (Button) findViewById(R.id.log_iniciar);
-        correo= (EditText) findViewById(R.id.log_correo);
-        contra= (EditText) findViewById(R.id.log_contraseña);
+        btn1=  findViewById(R.id.log_iniciar);
+        correo= findViewById(R.id.log_correo);
+        contra=  findViewById(R.id.log_contraseña);
 
-//        firebaseAuth.getInstance().signOut();
+        firebaseAuth.getInstance().signOut();
 
         firebaseAuth= FirebaseAuth.getInstance();
         authStateListener= new FirebaseAuth.AuthStateListener() {
