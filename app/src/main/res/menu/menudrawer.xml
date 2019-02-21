@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/perfil" android:icon="@drawable/ic_perfil" android:iconTint="#26DCC4"  android:title="Perfil"></item>
+    <item android:id="@+id/met_pago" android:icon="@drawable/ic_pagos"  android:iconTint="#26DCC4" android:title="Métodos de pago"></item>
+    <item android:id="@+id/promos" android:icon="@drawable/ic_promos"   android:iconTint="#26DCC4" android:title="Mis promos"></item>
+    <item android:id="@+id/membresia" android:icon="@drawable/ic_membre"  android:iconTint="#26DCC4" android:title="Membresía"></item>
+    <item android:id="@+id/pedidos" android:icon="@drawable/ic_pedidos"  android:iconTint="#26DCC4" android:title="Pedidos"></item>
+    <item android:id="@+id/mis_pedidos" android:icon="@drawable/ic_mispedidos"  android:iconTint="#26DCC4" android:title="Mis pedidos"></item>
+    <item android:id="@+id/llamanos" android:icon="@drawable/ic_llamanos"   android:iconTint="#26DCC4" android:title="Llámanos"></item>
+</menu>

@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "570982740882",
-    "firebase_url": "https://limpirepartidor.firebaseio.com",
-    "project_id": "limpirepartidor",
-    "storage_bucket": "limpirepartidor.appspot.com"
+    "project_number": "559812347088",
+    "firebase_url": "https://limpi-f52da.firebaseio.com",
+    "project_id": "limpi-f52da",
+    "storage_bucket": "limpi-f52da.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:570982740882:android:dd63ec620a51aea3",
+        "mobilesdk_app_id": "1:559812347088:android:dd63ec620a51aea3",
         "android_client_info": {
           "package_name": "com.example.aplicaciones3.limpirepartidor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "570982740882-d45vtae6maf65tiaegl6jmmsqr3u3k30.apps.googleusercontent.com",
+          "client_id": "559812347088-jq05tonhsmc9o9pdtk5rlf2s7grntni5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.aplicaciones3.limpirepartidor",
-            "certificate_hash": "17b1756f9890db43992d454d99db7236a989385d"
+            "certificate_hash": "6b2ffdc5baf98b981961e8a007748a1716a4a4c7"
           }
         },
         {
-          "client_id": "570982740882-560h7bfi8iqftccrhgco1tiahddp3en2.apps.googleusercontent.com",
+          "client_id": "559812347088-6lts2cbcleo2mu1objme7igsskd51oat.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAhC84d9pjkJOE3Whc7_2_Skz6K4Y9R9Qo"
+          "current_key": "AIzaSyC81VLN6TAoyRpe4K2YOE7rVzt9h_EtJVw"
         }
       ],
       "services": {
@@ -40,7 +40,51 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "570982740882-560h7bfi8iqftccrhgco1tiahddp3en2.apps.googleusercontent.com",
+              "client_id": "559812347088-6lts2cbcleo2mu1objme7igsskd51oat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559812347088:android:3b6897963dd5296f",
+        "android_client_info": {
+          "package_name": "com.example.firebaseedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559812347088-0p2k79hfbl2k0kavmohpi9kjljo95jbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseedu",
+            "certificate_hash": "6b2ffdc5baf98b981961e8a007748a1716a4a4c7"
+          }
+        },
+        {
+          "client_id": "559812347088-6lts2cbcleo2mu1objme7igsskd51oat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC81VLN6TAoyRpe4K2YOE7rVzt9h_EtJVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559812347088-6lts2cbcleo2mu1objme7igsskd51oat.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

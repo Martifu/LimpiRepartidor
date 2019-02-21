@@ -56,10 +56,10 @@ private FirebaseAuth.AuthStateListener authStateListener;
                         Toast.makeText(Login.this, "Favor de verificar su correo",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(Login.this,MainActivity.class));
                 }
-                else
-                {
-                    Toast.makeText(Login.this, "¡Welcome to Limpi!",Toast.LENGTH_LONG).show();
-                }
+//                else
+//                {
+//                    Toast.makeText(Login.this, "¡Welcome to Limpi!",Toast.LENGTH_LONG).show();
+//                }
             }
         };
 
