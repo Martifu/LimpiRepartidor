@@ -20,9 +20,9 @@
             <Button
                 android:id="@+id/abrir"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="12dp"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
+                android:layout_marginTop="11dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:background="@drawable/profile_icon"/>
 
             <ImageView
@@ -31,18 +31,15 @@
                 android:layout_height="25dp"
                 android:src="@drawable/limpi_blanco"/>
         </Toolbar>
-
-
     </LinearLayout>
+
+
     <FrameLayout
         android:layout_marginTop="50dp"
         android:id="@+id/fcontent"
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Hola"/>
+
     </FrameLayout>
 
 

@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PerfilFragment"
-    android:background="#7C4DFF">
+    tools:context=".PedidosFragment"
+    android:background="#FF5252">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
